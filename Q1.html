@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q1</title>
+    <link rel="stylesheet" href="Q1.css">
+    <style>
+        a {
+            color: red;
+        }
+
+        nav h2:nth-child(1) {
+            color: blue;
+            background: snow;
+        }
+
+        p:nth-child(2)::first-letter {
+            font-size: 30px;
+            color: red;
+        }
+
+        a[href] {
+            color: red;
+            text-decoration: none;
+        }
+
+        a[class="active"] {
+            color: blue;
+            text-decoration: underline;
+        }
+
+        a[class="_self"] {
+            background-color: grey;
+        }
+        p:last-child::after {
+            content: "...";
+        }
+        li::marker {
+            color: green;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <h2>YSK</h2>
+            <h2>Menu</h2>
+            <ul>
+                <li><a href="Home">Home</a></li>
+                <li><a href="About">About</a></li>
+                <li><a href="Services">Services</a></li>
+                <li><a href="Contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <p>The Times Of Ratnagiri</p>
+
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Dignissimos nam error odit tempora eaque velit, ea ad consectetur voluptate quis?
+        </p>
+        <p>read more articles</p>
+    </main>
+</body>
+
+</html>
